@@ -12,16 +12,16 @@ xmlhttp.send();
 function homePageLoading() {
     url = 'http://bitcoin.mubiz.com/info';
     elementID = 'info';
-    fonctionRequeteApi(url, elementID);
+    webservice(url, elementID);
     url = 'http://bitcoin.mubiz.com/blockchaininfo';
     elementID = 'info';
-    fonctionRequeteApi(url, elementID);
+    webservice(url, elementID);
     url = 'http://bitcoin.mubiz.com/peerinfo';
     elementID = 'info';
-    fonctionRequeteApi(url, elementID);
+    webservice(url, elementID);
     url = 'http://bitcoin.mubiz.com/mininginfo';
     elementID = 'info';
-    fonctionRequeteApi(url, elementID);
+    webservice(url, elementID);
 }
 
 function webservice(url,id)
